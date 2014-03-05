@@ -38,4 +38,4 @@ $customer = new Customer([
 	'customer_company_phone' => 'TELCEL'
 ]);
 
-//print_r($api->createSMS($customer,$product['payment_id']));
+print_r($api->createSMS($customer,$product['payment_id']));
