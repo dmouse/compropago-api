@@ -1,0 +1,19 @@
+{
+    "name": "hechoendrupal/compropago",
+    "description": "PHP integration for compropago.com API",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Flores",
+            "email": "dmousex@gmail.com"
+        }
+    ],
+    "require": {
+      "guzzle/guzzle": "v3.8.1"
+    },
+    "autoload": {
+        "psr-0":{
+            "HechoEnDrupal":"lib"
+        }
+    }
+}
