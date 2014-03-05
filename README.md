@@ -20,6 +20,10 @@ $ ./composer.phar install
 ```php
 <?php
 
+use HechoEnDrupal\ComproPago\Api;
+use HechoEnDrupal\ComproPago\Charge;
+use HechoEnDrupal\ComproPago\Customer;
+
 require __DIR__ . 'vendor/autoload.php';
 
 //...
