@@ -6,7 +6,7 @@ use HechoEnDrupal\ComproPago\Customer;
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$api_key = 'sk_test_90f85343d614387d';
+$api_key = 'sk_test_XXXXXXXXXXXXX';
 
 $charge = new Charge([
 	'currency' => 'MXN',

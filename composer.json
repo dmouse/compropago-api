@@ -1,5 +1,5 @@
 {
-    "name": "hechoendrupal/compropago",
+    "name": "hechoendrupal/compropago-api",
     "description": "PHP integration for compropago.com API",
     "license": "MIT",
     "authors": [
