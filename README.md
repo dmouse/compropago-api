@@ -4,7 +4,7 @@ ComproPago API
 Instalación
 ===========
 * Via composer
-``bash
+```bash
 $ curl -sS https://getcomposer.org/installer | php
 $ cat composer.json
 {
@@ -13,4 +13,4 @@ $ cat composer.json
     }
 }
 $ ./composer.phar install
-``
+```
