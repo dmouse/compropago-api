@@ -51,7 +51,9 @@ class Api {
 	 * @return array  return 
 	 */
 	public function sendCharge(array $charge){
-		$request = $this->client->post('/v1/charges', null, $charge);
+		
+		$options = array('Content-Type' => 'text/xml; charset=UTF8');
+		$request = $this->client->post('/v1/charges', null, $charge, $options);
 		$request->setAuth($this->api_key,'');
 		$response = $request->send()->json();
 		return $response;
