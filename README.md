@@ -37,4 +37,4 @@ $sms = $api->createSMS($customer,$product['payment_id']);
 
 ```
 
-More information in [samples section](https://github.com/dmouse/compropago-api/tree/beta1/samples)
+More information in [examples section](https://github.com/dmouse/compropago-api/tree/beta1/samples)
