@@ -1,19 +1,22 @@
 {
-    "name": "hechoendrupal/compropago-api",
-    "description": "PHP integration for compropago.com API",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "David Flores",
-            "email": "david@hechoendrupal.com"
-        }
-    ],
-    "require": {
-      "guzzle/guzzle": "v3.8.1"
-    },
-    "autoload": {
-        "psr-0":{
-            "HechoEnDrupal":"lib"
-        }
+  "name": "hechoendrupal/compropago-api",
+  "description": "PHP integration for compropago.com API",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Flores",
+      "email": "david@hechoendrupal.com"
     }
+  ],
+  "require": {
+    "guzzle/guzzle": "v3.8.1"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "HechoEnDrupal":"lib"
+    }
+  }
 }
