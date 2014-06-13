@@ -1,5 +1,6 @@
 ComproPago API
 ==============
+[![Latest Stable Version](https://poser.pugx.org/hechoendrupal/compropago-api/v/stable.svg)](https://packagist.org/packages/hechoendrupal/compropago-api) [![Total Downloads](https://poser.pugx.org/hechoendrupal/compropago-api/downloads.svg)](https://packagist.org/packages/hechoendrupal/compropago-api) [![Latest Unstable Version](https://poser.pugx.org/hechoendrupal/compropago-api/v/unstable.svg)](https://packagist.org/packages/hechoendrupal/compropago-api) [![License](https://poser.pugx.org/hechoendrupal/compropago-api/license.svg)](https://packagist.org/packages/hechoendrupal/compropago-api)
 
 ### Instalation
 
