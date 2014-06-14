@@ -10,7 +10,7 @@ $ curl -sS https://getcomposer.org/installer | php
 $ cat composer.json
 {
     "require": {
-      "hechoendrupal/compropago-api": "dev-beta1"
+      "hechoendrupal/compropago-api": "~1.0"
     }
 }
 $ ./composer.phar install
