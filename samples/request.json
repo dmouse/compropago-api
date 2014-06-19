@@ -1,0 +1,46 @@
+{
+  "type": "charge.pending",
+  "object": "event",
+  "data": {
+      "object": {
+          "id": "ch_00000-000-0000-000000",
+          "short_id": "000000",
+          "object": "charge",
+          "created": "2013-09-19T05:32:00.427Z",
+          "paid": true,
+          "amount": "12.00",
+          "currency": "mxn",
+          "refunded": false,
+          "fee": "3.35",
+          "store_mode": "active",
+          "fee_details": {
+              "amount": "3.35",
+              "currency": "mxn",
+              "type": "compropago_fee",
+              "description": "Honorarios de ComproPago",
+              "application": null,
+              "amount_refunded": 0
+          },
+          "payment_details": {
+              "object": "cash",
+              "store": "OXXO",
+              "country": "MX",
+              "product_id": "test_12",
+              "product_price": "12.00",
+              "product_name": "Chocolate",
+              "image_url": "http://upload.wikimedia.org/wikipedia/commons/5/56/Chocolate_cupcakes.jpg",
+              "success_url": "http://example.com/success",
+              "failded_url": "http://example.com/failed",
+              "customer_name": "Francisco Ortiz",
+              "customer_email": "francisco@example.com",
+              "customer_phone": "5555555555"
+          },
+          "captured": true,
+          "failure_message": null,
+          "failure_code": null,
+          "amount_refunded": 0,
+          "description": "Estado del pago - ComproPago",
+          "dispute": null
+      }
+  }
+}
