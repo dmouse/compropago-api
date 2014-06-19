@@ -15,12 +15,10 @@ $ cat composer.json
 }
 $ ./composer.phar install
 ```
-
+ 
 ### Usage
 
 ```php
-<?php
-
 use HechoEnDrupal\ComproPago\Api;
 use HechoEnDrupal\ComproPago\Charge;
 use HechoEnDrupal\ComproPago\Customer;
@@ -33,8 +31,32 @@ $api = new Api($api_key);
 $product = $api->createCharge($charge);
 $status = $api->getCharge($product['payment_id']);
 $sms = $api->createSMS($customer,$product['payment_id']);
-
-
 ```
 
-More information in [examples section](https://github.com/dmouse/compropago-api/tree/beta1/samples)
+#### Webhooks
+```php
+use HechoEnDrupal\ComproPago\Webhook;
+
+
+$webhook = new WebHook();
+
+// Charge data
+print $webhook->getAmount()."\n";
+print $webhook->getCreated($format=null)."\n";
+print $webhook->getID()."\n";
+print $webhook->getShortID()."\n";
+if ($webhook->paid()) {
+  print "Paid\n";
+}
+
+// Payment Details
+$payment = $webhook->getPaymentDetails();
+print "Payment Details"."\n";
+print $payment->getStore()."\n";
+print $payment->getProductID()."\n";
+print $payment->getCustomerPhone()."\n";
+print $payment->getCustomerEmail()."\n";
+print $payment->getCountry()."\n";
+```
+
+More information in [examples section](https://github.com/dmouse/compropago-api/tree/master/samples)
