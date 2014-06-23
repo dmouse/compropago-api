@@ -25,7 +25,7 @@ use HechoEnDrupal\ComproPago\Customer;
 
 require __DIR__ . 'vendor/autoload.php';
 
-//...
+// ...
 
 $api = new Api($api_key);
 $product = $api->createCharge($charge);
@@ -36,7 +36,6 @@ $sms = $api->createSMS($customer,$product['payment_id']);
 #### Webhooks
 ```php
 use HechoEnDrupal\ComproPago\Webhook;
-
 
 $webhook = new WebHook();
 
