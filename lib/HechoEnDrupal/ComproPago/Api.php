@@ -31,7 +31,7 @@ class Api {
 	}
   
 	public function createCharge(Charge $charge){
-		$c = [];
+		$c = array();
 		$c['currency'] = $charge->getCurrency();
 		$c['product_price'] = $charge->getProductPrice();
 		$c['product_name'] = $charge->getProductName();
@@ -77,7 +77,7 @@ class Api {
 	 */
 	public function createSMS(CustomerInterface $customer, $id){
 
-		$c = [];
+		$c = array();
 		$c['customer_phone'] = $customer->getCustomerPhone();
 		$c['customer_company_phone'] = $customer->getCustomerCompanyPhone();
 		return $this->sendSMS($c, $id);
